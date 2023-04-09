@@ -4,14 +4,13 @@ function App() {
   const [count, setCount] = useState(0);
   const [text, setText] = useState([]);
 
+  console.log(count);
   const handleSubmit = (e) => {
     e.preventDefault();
     let amount = parseInt(count);
     if (count <= 0) amount = 1;
     if (count > data.length - 1) amount = data.length - 1;
     setText(data.slice(0, amount));
-    console.log(amount);
-    console.log(data.length);
   };
 
   return (
