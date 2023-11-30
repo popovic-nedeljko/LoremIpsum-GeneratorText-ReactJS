@@ -7,3 +7,8 @@
 React application which provides a simple and customizable tool for generating paragraphs of placeholder text for use in web design and development.
 
 With the ability to specify the number of paragraphs needed, users can quickly generate text that is ideal for filling in mockups or testing page layouts.
+
+## NOTE*** 
+node version: 16.15.0
+
+npm version: 8.5.5
